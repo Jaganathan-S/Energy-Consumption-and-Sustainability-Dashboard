@@ -1,0 +1,6 @@
+timestamp,location,temperature,humidity,pressure,wind_speed
+2023-01-01 00:00:00,London,5,80,1012,3
+2023-01-02 00:00:00,London,6,75,1010,4
+2023-01-03 00:00:00,London,7,70,1008,2
+2023-01-04 00:00:00,London,5,85,1013,5
+2023-01-05 00:00:00,London,4,90,1011,3
