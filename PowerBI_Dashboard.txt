@@ -1,0 +1,35 @@
+Energy Consumption and Sustainability Dashboard in Power BI
+
+1. Set Up Power BI Desktop
+   - Download and install Power BI Desktop from the official Microsoft website if you haven't done so already.
+
+2. Prepare Your Data
+   - Ensure you have your processed data ready in an Excel file (`processed_energy_data.xlsx`).
+
+3. Load Data into Power BI
+   - Open Power BI Desktop.
+   - Click on "Get Data" in the Home tab.
+   - Select "Excel" from the list of data sources.
+   - Browse to your `processed_energy_data.xlsx` file and click "Open."
+   - Select the relevant sheet and click "Load."
+
+4. Create Visualizations
+   - Line Chart for Average Daily Temperature:
+     - Select the "Line chart" visual from the Visualizations pane.
+     - Drag the `date` field to the Axis and the `temperature` field to Values.
+   - Bar Chart for Humidity Levels:
+     - Select the "Bar chart" visual.
+     - Drag the `date` field to the Axis and the `humidity` field to Values.
+   - KPIs for Average Metrics:
+     - Use the "Card" visual to create KPIs.
+     - Drag fields like `average temperature`, `average humidity`, etc., into the Card visual.
+
+5. Format the Dashboard
+   - Adjust the visuals for clarity, such as titles, colors, and labels.
+   - Arrange the visuals on the canvas for a cohesive layout.
+
+6. Publish Your Dashboard
+   - Once satisfied with the dashboard, click on the "Publish" button in the Home tab.
+   - Sign in to your Power BI account and choose the workspace where you want to publish the report.
+   - After publishing, you can share the report with others by providing them the link or inviting them to the workspace.
+
